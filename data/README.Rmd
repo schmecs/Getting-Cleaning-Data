@@ -23,4 +23,4 @@ My run_analysis.R set of scripts does the following:
 
 * creates an additional data set that is a set of mean calculations for each group of observations with a distinct combination of Subject, Activity, and Variable
 
-* saves the tidy data set of means to a .txt file in the working   directory
+* saves the tidy data set of means to a .txt file in the working directory

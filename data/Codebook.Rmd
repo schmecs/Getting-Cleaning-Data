@@ -12,10 +12,10 @@ The data comes from raw signals from the accelerometer and gyroscope 3-axial raw
 The raw data contains multiple observations per activity and variable per subject. The final, tidy data set includes 1 row per each unique combination of subject, activity, and variable, providing a mean of all available observations for that combination.
 
 Columns provided:
-*Subject_ID: Unique identifier for each of the 30 participating subjects.
-*Activity: Each of 6 available activities for observation (WALKING, WALKING_UPSTAIRS,  WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING)
-*Variable: Which variable was measured.
-*Mean_Measured_Value: Mean Value of that variable measured for that activity and that subject.
+* Subject_ID: Unique identifier for each of the 30 participating subjects.
+* Activity: Each of 6 available activities for observation (WALKING, WALKING_UPSTAIRS,  WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING)
+* Variable: Which variable was measured.
+* Mean_Measured_Value: Mean Value of that variable measured for that activity and that subject.
 
 The mean values are based on the MEAN and STANDARD DEVIATION of each of the variables described below, on each of the X Y and Z axes. The suffix of each variable delineates both the measurement ("-mean" or "-std" and axis ("X", "Y", or "Z").
 
