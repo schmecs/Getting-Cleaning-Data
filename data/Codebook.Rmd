@@ -21,24 +21,24 @@ The mean values are based on the MEAN and STANDARD DEVIATION of each of the vari
 
 VARIABLES INCLUDED IN THIS DATA SET: 
 Mean and Standard Deviation are provided for each measurement.
-*tBodyAcc-XYZ: Body Acceleration Signals (XYZ axes)
-*tGravityAcc-XYZ: Gravity Acceleration Signals (XYZ axes)
-*tBodyAccJerk-XYZ: Body Jerk Signals
-*tBodyGyro-XYZ: Body Jerk Signals 
-*tBodyGyroJerk-XYZ: Body Jerk Signals
+* tBodyAcc-XYZ: Body Acceleration Signals (XYZ axes)
+* tGravityAcc-XYZ: Gravity Acceleration Signals (XYZ axes)
+* tBodyAccJerk-XYZ: Body Jerk Signals
+* tBodyGyro-XYZ: Body Jerk Signals 
+* tBodyGyroJerk-XYZ: Body Jerk Signals
 
 Magnitude of three-dimensional signals calculated using Euclidean norm:
-*tBodyAccMag
-*tGravityAccMag
-*tBodyAccJerkMag
-*tBodyGyroMag
-*tBodyGyroJerkMag
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
 
 Fast Fourier Transform applied to signals:
-*fBodyAcc-XYZ
-*fBodyAccJerk-XYZ
-*fBodyGyro-XYZ
-*fBodyAccMag
-*fBodyAccJerkMag
-*fBodyGyroMag
-*fBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
