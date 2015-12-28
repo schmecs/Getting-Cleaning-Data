@@ -1,0 +1,26 @@
+---
+title: "README"
+author: "Rebecca Blum"
+date: "December 27, 2015"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+This is for the Getting and Cleaning Data Course Project due December 27, 2015.
+
+My run_analysis.R set of scripts does the following:
+
+* downloads the zipped archive from the UCI link
+
+* creates the necessary folder to hold the data and unzips the files
+
+* reads all the relevant tables into R using read.table()
+
+* appends Activity labels and Variable names to the Test and Train data sets
+
+* combines the Test and Train data sets into a single tidy data set
+
+* creates an additional data set that is a set of mean calculations for each group of observations with a distinct combination of Subject, Activity, and Variable
+
+* saves the tidy data set of means to a .txt file in the working directory

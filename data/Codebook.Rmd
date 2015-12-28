@@ -1,0 +1,44 @@
+---
+title: "Codebook"
+author: "Rebecca Blum"
+date: "December 27, 2015"
+output: html_document
+---
+
+This is for the Getting and Cleaning Data Course Project due December 27, 2015.
+
+The data comes from raw signals from the accelerometer and gyroscope 3-axial raw signals captured from training subjects and test subjects in a group of 30 volunteers wearing a smartphone (Samung Galaxy S II) on the waist. 
+
+The raw data contains multiple observations per activity and variable per subject. The final, tidy data set includes 1 row per each unique combination of subject, activity, and variable, providing a mean of all available observations for that combination.
+
+Columns provided:
+*Subject_ID: Unique identifier for each of the 30 participating subjects.
+*Activity: Each of 6 available activities for observation (WALKING, WALKING_UPSTAIRS,  WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING)
+*Variable: Which variable was measured.
+*Mean_Measured_Value: Mean Value of that variable measured for that activity and that subject.
+
+The mean values are based on the MEAN and STANDARD DEVIATION of each of the variables described below, on each of the X Y and Z axes. The suffix of each variable delineates both the measurement ("-mean" or "-std" and axis ("X", "Y", or "Z").
+
+VARIABLES INCLUDED IN THIS DATA SET: 
+Mean and Standard Deviation are provided for each measurement.
+*tBodyAcc-XYZ: Body Acceleration Signals (XYZ axes)
+*tGravityAcc-XYZ: Gravity Acceleration Signals (XYZ axes)
+*tBodyAccJerk-XYZ: Body Jerk Signals
+*tBodyGyro-XYZ: Body Jerk Signals 
+*tBodyGyroJerk-XYZ: Body Jerk Signals
+
+Magnitude of three-dimensional signals calculated using Euclidean norm:
+*tBodyAccMag
+*tGravityAccMag
+*tBodyAccJerkMag
+*tBodyGyroMag
+*tBodyGyroJerkMag
+
+Fast Fourier Transform applied to signals:
+*fBodyAcc-XYZ
+*fBodyAccJerk-XYZ
+*fBodyGyro-XYZ
+*fBodyAccMag
+*fBodyAccJerkMag
+*fBodyGyroMag
+*fBodyGyroJerkMag
