@@ -4,9 +4,9 @@
 # as opposed to assuming the user already had the data. 
 
 # Download data set (zipped archive)
-#fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#if(!file.exists("./data")){dir.create("./data")}
-#download.file(fileUrl, destfile="./data/UCI_data.zip",method="curl")
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+if(!file.exists("./data")){dir.create("./data")}
+download.file(fileUrl, destfile="./data/UCI_data.zip",method="curl")
 
 # Unzip files from archive
 unzip("./data/UCI_data.zip",overwrite=TRUE,exdir="./data")
